@@ -101,6 +101,7 @@ export default function PatientRecords() {
           <Link to="/dashboard" className={`block py-3 px-4 rounded-lg transition-all ${location.pathname === '/dashboard' ? 'bg-blue-800 border-l-4 border-blue-400 shadow-md' : 'hover:bg-blue-800/50 hover:translate-x-1'}`}>Analysis Dashboard</Link>
           <Link to="/patients" className={`block py-3 px-4 rounded-lg transition-all ${location.pathname === '/patients' ? 'bg-blue-800 border-l-4 border-blue-400 shadow-md' : 'hover:bg-blue-800/50 hover:translate-x-1'}`}>Patient Records</Link>
           <Link to="/telemedicine" className={`block py-3 px-4 rounded-lg transition-all ${location.pathname === '/telemedicine' ? 'bg-blue-800 border-l-4 border-blue-400 shadow-md' : 'hover:bg-blue-800/50 hover:translate-x-1'}`}>Telemedicine Simulation</Link>
+          <Link to="/about" className={`block py-3 px-4 rounded-lg transition-all ${location.pathname === '/about' ? 'bg-blue-800 border-l-4 border-blue-400 shadow-md' : 'hover:bg-blue-800/50 hover:translate-x-1'}`}>About Project</Link>
         </nav>
       </div>
 

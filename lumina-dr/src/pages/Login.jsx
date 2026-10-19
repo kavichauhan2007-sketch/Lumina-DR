@@ -39,16 +39,27 @@ export default function Login() {
             </p>
           </div>
           
-          <div className="relative z-10 mt-12 pt-8 border-t border-slate-800">
-            <p className="text-xs text-slate-400 mb-4 font-semibold uppercase tracking-wider">Patient Services</p>
+          <div className="relative z-10 mt-12 pt-8 border-t border-slate-800 space-y-3">
+            <p className="text-xs text-slate-400 font-semibold uppercase tracking-wider">Quick Navigation</p>
             <button 
               type="button"
               onClick={() => navigate('/patient-home')} 
-              className="w-full bg-slate-800/50 hover:bg-slate-800 border border-slate-700 text-white font-semibold py-3.5 px-4 rounded-xl transition-all flex items-center justify-between group"
+              className="w-full bg-slate-800/50 hover:bg-slate-800 border border-slate-700 text-white font-semibold py-3 px-4 rounded-xl transition-all flex items-center justify-between group"
             >
               <span className="flex items-center gap-3 text-sm">
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M19 21V5a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2v16"/><path d="M3 21h18"/><path d="M9 10h6"/><path d="M12 7v6"/></svg>
-                Open Public Portal
+                Open Patient Portal
+              </span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="opacity-50 group-hover:opacity-100 group-hover:translate-x-1 transition-all"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </button>
+            <button 
+              type="button"
+              onClick={() => navigate('/about')} 
+              className="w-full bg-blue-950/40 hover:bg-blue-900/50 border border-blue-800/50 text-blue-200 font-semibold py-3 px-4 rounded-xl transition-all flex items-center justify-between group"
+            >
+              <span className="flex items-center gap-3 text-sm">
+                <span>✦</span>
+                About Lumina-DR (PS-26038)
               </span>
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="opacity-50 group-hover:opacity-100 group-hover:translate-x-1 transition-all"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
             </button>

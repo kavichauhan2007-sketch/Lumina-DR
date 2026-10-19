@@ -8,6 +8,7 @@ import Dashboard from './pages/Dashboard';
 import PatientRecords from './pages/PatientRecords';
 import Telemedicine from './pages/Telemedicine';
 import PatientHome from './pages/PatientHome'; 
+import About from './pages/About';
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
         <Route path="/patients" element={<PatientRecords />} />
         <Route path="/telemedicine" element={<Telemedicine />} />
         <Route path="/patient-home" element={<PatientHome />} />
+        <Route path="/about" element={<About />} />
       </Routes>
     </BrowserRouter>
   );

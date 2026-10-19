@@ -49,6 +49,7 @@ Primary Health Centres (PHCs) face three critical bottlenecks:
 - 📊 **ICDR 0–4 Severity Grading:** Fully compliant with International Clinical Diabetic Retinopathy guidelines (No DR, Mild, Moderate, Severe, Proliferative DR).
 - 🌐 **Telemedicine Simulink Engine:** Interactive simulation dashboard modeling district PHC queues, network types (2G, 3G, 4G, Satellite), edge-vs-cloud triage, and annual population coverage.
 - 📄 **Automated Clinical Reporting:** Instant PDF reports with patient telemetry, lesion counts, referral urgency, and plain-language summaries.
+- ℹ️ **Interactive Clinical Methodology & About Portal:** Dedicated interactive view (`/about`) presenting the MathWorks PS-26038 background, rural health stats, step-by-step vision algorithms, and clinical ICDR consensus.
 
 ---
 

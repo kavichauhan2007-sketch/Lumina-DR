@@ -17,6 +17,7 @@ export default function PatientHome() {
   const t = {
     en: {
       brand: "Lumina Care",
+      about: "About Project",
       bookDr: "Book Consultation",
       doctorLogin: "Clinical Login",
       heroBadge: "Clinical Grade AI • Deployed in 100+ Clinics",
@@ -44,6 +45,7 @@ export default function PatientHome() {
     },
     hi: {
       brand: "लुमीना केयर",
+      about: "परियोजना परिचय",
       bookDr: "परामर्श बुक करें",
       doctorLogin: "क्लिनिकल लॉगिन",
       heroBadge: "क्लिनिकल ग्रेड AI • 100+ क्लिनिक में प्रमाणित",
@@ -169,6 +171,9 @@ export default function PatientHome() {
             <button onClick={() => setShowBookingModal(true)} className="hidden md:block text-sm font-medium text-slate-600 hover:text-slate-900 transition-colors">
               {currText.bookDr}
             </button>
+            <Link to="/about" className="hidden md:block text-sm font-medium text-slate-600 hover:text-blue-600 transition-colors">
+              {currText.about}
+            </Link>
             <div className="h-4 w-px bg-slate-200 hidden md:block"></div>
             <Link to="/" className="text-sm font-medium text-blue-600 hover:text-blue-700 transition-colors">
               {currText.doctorLogin} &rarr;
